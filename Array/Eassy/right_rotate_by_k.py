@@ -7,8 +7,8 @@ def right_rotate_by_k(arr, k):
             arr[i+1] = arr[i]
         arr[0] = last_element
         k -= 1
-    return arr  
 
 arr = [1, 2, 3, 4, 5]
 k = 3
-print(right_rotate_by_k(arr, k))
+right_rotate_by_k(arr, k)
+print(arr)
