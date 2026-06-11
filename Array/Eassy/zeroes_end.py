@@ -1,4 +1,4 @@
-arr = [0, 1, 0, 3, 12]
+arr = [0, 1, 0, 3, 12, 0, 0, 5, 0, 6]
 def move_zeroes(arr):
     n = len(arr)
     temp = []
